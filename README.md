@@ -2,7 +2,7 @@
 
 ## Cloud Engineer | Azure | Terraform | Automation
 
-I design, deploy, and support cloud infrastructure for production environments. My background in operations gives me a unique perspective—I build systems with reliability and maintainability in mind.
+I design, deploy, and support cloud infrastructure. My background in operations gives me a unique perspective about systems with reliability and maintainability in mind.
 
 ---
 
