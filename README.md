@@ -30,7 +30,7 @@ I design, deploy, and support cloud infrastructure. My background in operations 
 
 ### 📫 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/moshood-adisa8701/)
+- [LinkedIn](https://www.linkedin.com/in/moshstaq/)
 - Email: moshood.adisa01@gmail.com
 
 ---
