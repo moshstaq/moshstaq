@@ -1,38 +1,72 @@
-# Hi, I'm Moshood 👋
+# moshstaq
 
-## Cloud Engineer | Azure | Terraform | Automation
-
-I design, deploy, and support cloud infrastructure. My background in operations gives me a unique perspective about systems with reliability and maintainability in mind.
+Cloud & Infrastructure Engineer
 
 ---
 
-### 🔧 What I Work With
+Technology evolves. Stacks change.
 
-- **Cloud:** Azure (AZ-104, SC-300, MD-102)
-- **Infrastructure as Code:** Terraform
-- **Automation:** Bash, PowerShell, Python
-- **Containers:** Docker, Kubernetes (fundamentals)
-- **Identity:** Entra ID, Conditional Access, RBAC
-- **CI/CD:** GitHub Actions, Azure DevOps
-- **Monitoring:** Azure Monitor, Log Analytics
+On-prem was the foundation. Cloud is the present. Whatever comes next—I'll be ready.
+
+I build infrastructure that lasts. My background in operations taught me what breaks, why it breaks, and how to build systems that don't.
+
+---
+
+## Stack
+
+**Cloud** — Azure
+
+**Infrastructure as Code** — Terraform
+
+**Automation** — Bash, PowerShell, Python
+
+**Containers** — Docker, Kubernetes
+
+**Identity** — Entra ID, Conditional Access, RBAC
+
+**CI/CD** — GitHub Actions, Azure DevOps
+
+**Monitoring** — Azure Monitor, Log Analytics
+
+**Networking** — VNets, NSGs, DNS, VPN
+
+---
+
+## Certifications
+
+Azure Administrator (AZ-104)
+
+Identity & Access Administrator (SC-300)
+
+Endpoint Administrator (MD-102)
+
+Azure Fundamentals (AZ-900)
+
+Cybersecurity (ISC² CC)
 
 ---
 
 
-### 📜 Certifications
+## Philosophy
 
-- Microsoft Certified: Azure Administrator Associate (AZ-104)
-- Microsoft Certified: Identity and Access Administrator (SC-300)
-- Microsoft Certified: Endpoint Administrator Associate (MD-102)
-- Microsoft Certified: Azure Fundamentals (AZ-900)
+Stacks change. Builders adapt.
 
----
+I don't chase trends. I master fundamentals.
 
-### 📫 Let's Connect
+I don't just deploy. I understand.
 
-- [LinkedIn](https://www.linkedin.com/in/moshstaq/)
-- Email: moshood.adisa01@gmail.com
+I don't just fix. I prevent.
 
 ---
 
-*Currently seeking Cloud Engineer / Platform Engineer opportunities.*
+## Connect
+
+Seeking Cloud Engineer or Platform Engineer roles.
+
+Open to conversations.
+
+[LinkedIn](https://linkedin.com/in/moshstaq) — [Email](mailto:moshood.adisa01@gmail.com)
+
+---
+
+*moshstaq — Stacks evolve. I adapt.*
