@@ -6,7 +6,7 @@ Apiring Cloud Engineer
 
 Technology evolves. Stacks change.
 
-On-prem was the foundation. Cloud is the present. Whatever comes next—I'll be ready.
+On-prem was the foundation. Cloud is the present. Whatever comes next, I'll be ready.
 
 I build infrastructure that lasts. My background in operations taught me what breaks, why it breaks, and how to build systems that don't.
 
