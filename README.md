@@ -1,34 +1,37 @@
-# moshstaq
+# Moshood A
 
-Apiring Cloud Engineer
+**Cloud Engineer** | Building Infrastructure That Lasts
 
 ---
 
-Technology evolves. Stacks change.
+Technology evolves. Stacks change. Engineers who understand _why_ things work will always adapt.
 
-On-prem was the foundation. Cloud is the present. Whatever comes next, I'll be ready.
+On-prem taught me what breaks. Cloud taught me how to scale.  
+I build infrastructure that's secure by default and simple to maintain.
 
-I build infrastructure that lasts. My background in operations taught me what breaks, why it breaks, and how to build systems that don't.
+---
+
+## What I Work With
 
 ---
 
 ## Stack
 
-**Cloud** — Azure
+**Cloud** — Azure (Primary), AWS (familiar)
 
 **Infrastructure as Code** — Terraform
 
 **Automation** — Bash, PowerShell, Python
 
-**Containers** — Docker, Kubernetes
+**Containers** — Docker, Kubernetes (AKS)
 
 **Identity** — Entra ID, Conditional Access, RBAC
 
 **CI/CD** — GitHub Actions, Azure DevOps
 
-**Monitoring** — Azure Monitor, Log Analytics
+**Observability** — Azure Monitor, Log Analytics, KQL
 
-**Networking** — VNets, NSGs, DNS, VPN
+**Networking** — VNets, NSGs, Private Endpoints, Hub-Spoke
 
 ---
 
@@ -46,27 +49,28 @@ Cybersecurity (ISC² CC)
 
 ---
 
-
 ## Philosophy
 
 Stacks change. Builders adapt.
-
-I don't chase trends. I master fundamentals.
-
-I don't just deploy. I understand.
-
-I don't just fix. I prevent.
+I master fundamentals over trends.
+I understand before I deploy.
+I prevent rather than fix.
 
 ---
 
 ## Connect
 
-Seeking Cloud Engineer or Platform Engineer roles.
+## Let's Connect
 
-Open to conversations.
+Looking for **Cloud Engineer**, **Platform Engineer**, or **DevOps** roles.
 
-[LinkedIn](https://linkedin.com/in/moshstaq) — [Email](mailto:moshood.adisa01@gmail.com)
+I bring operations experience, security mindset, and hands-on infrastructure skills.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/moshstaq)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa01@gmail.com)
+
+📍 [Your Location] | Open to remote
 
 ---
 
-*moshstaq — Stacks evolve. I adapt.*
+_moshstaq — Stacks evolve. I adapt._
