@@ -69,7 +69,7 @@ I bring operations experience, security mindset, and hands-on infrastructure ski
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/moshstaq)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa01@gmail.com)
 
-📍 [Your Location] | Open to remote
+📍 England | Open to remote
 
 ---
 
