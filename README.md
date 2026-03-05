@@ -1,76 +1,68 @@
 # Mosh A
 
-**Cloud Engineer** | Building Infrastructure That Lasts
+**Cloud and Platform Engineer** | Azure | Terraform | Kubernetes
 
 ---
 
-Technology evolves. Stacks change. Engineers who understand _why_ things work will always adapt.
-
-On-prem taught me what breaks. Cloud taught me how to scale.  
-I build infrastructure that's secure by default and simple to maintain.
+On-prem taught me what breaks. Cloud taught me how to scale.
+I build infrastructure that is secure by default, governed from day one, and simple enough for the next engineer to understand.
 
 ---
 
-## What I Work With
+## What I Have Built
+
+### [Azure Landing Zone](https://github.com/moshstaq/azure-landing-zone)
+
+A production-pattern Azure platform built from scratch using Terraform and GitHub Actions, implementing Cloud Adoption Framework landing zone patterns. Not a template. Not a wizard. Every resource is defined in code, every deployment runs through CI/CD.
+
+Covers the full platform stack — management group hierarchy, hub-spoke networking with Application Gateway ingress, Azure Policy governance, AKS with workload identity, Private Endpoints, centralised observability, disaster recovery and cost management.
+
+### [Azure AKS Platform Onboarding](https://github.com/moshstaq/azure-aks-platform-onboarding)
+
+End-to-end workload onboarding onto the landing zone above. Python FastAPI application containerised with a multi-stage Dockerfile, pushed to Azure Container Registry, deployed to AKS via Helm, with secrets fetched from Key Vault using workload identity. GitHub Actions pipeline handles build, vulnerability scanning and deployment.
 
 ---
 
 ## Stack
 
-**Cloud** — Azure (Primary), AWS (familiar)
-
-**Infrastructure as Code** — Terraform
-
-**Automation** — Bash, PowerShell, Python
-
-**Containers** — Docker, Kubernetes (AKS)
-
-**Identity** — Entra ID, Conditional Access, RBAC
-
-**CI/CD** — GitHub Actions, Azure DevOps
-
-**Observability** — Azure Monitor, Log Analytics, KQL
-
-**Networking** — VNets, NSGs, Private Endpoints, Hub-Spoke
+| Area                      | Tools                                                          |
+| ------------------------- | -------------------------------------------------------------- |
+| Cloud                     | Azure (primary)                                                |
+| Infrastructure as Code    | Terraform                                                      |
+| Containers and Kubernetes | Docker, AKS, Helm, AGIC, CSI Secrets Store                     |
+| Identity and Security     | Entra ID, RBAC, OIDC, Managed Identities, Key Vault            |
+| CI/CD                     | GitHub Actions, Azure DevOps                                   |
+| Networking                | VNets, NSGs, Private Endpoints, Hub-Spoke, Application Gateway |
+| Observability             | Log Analytics, KQL, Azure Monitor                              |
+| Scripting                 | Bash, PowerShell, Python                                       |
 
 ---
 
 ## Certifications
 
-Azure Administrator (AZ-104)
-
-Identity & Access Administrator (SC-300)
-
-Endpoint Administrator (MD-102)
-
-Azure Fundamentals (AZ-900)
-
-Cybersecurity (ISC² CC)
+| Certification                            | Issuer    |
+| ---------------------------------------- | --------- |
+| AZ-104 Microsoft Azure Administrator     | Microsoft |
+| SC-300 Identity and Access Administrator | Microsoft |
+| MD-102 Endpoint Administrator            | Microsoft |
+| AZ-900 Azure Fundamentals                | Microsoft |
+| CC Certified in Cybersecurity            | ISC²      |
 
 ---
 
-## Philosophy
+## How I Work
 
-Stacks change. Builders adapt.
-I master fundamentals over trends.
 I understand before I deploy.
 I prevent rather than fix.
+I master fundamentals over trends — stacks change, engineers who understand why things work will always adapt.
 
 ---
 
 ## Connect
 
-## Let's Connect
+Open to **Cloud Engineer**, **Platform Engineer** and **DevOps** roles across England. Hybrid and remote.
 
-Looking for **Cloud Engineer**, **Platform Engineer**, or **DevOps** roles.
-
-I bring operations experience, security mindset, and hands-on infrastructure skills.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/moshstaq)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-moshstaq-blue?logo=linkedin)](https://linkedin.com/in/moshstaq)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa01@gmail.com)
 
-📍 England | Open to remote
-
----
-
-_moshstaq — Stacks evolve. I adapt._
+📍 England
