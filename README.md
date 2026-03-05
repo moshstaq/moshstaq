@@ -60,7 +60,7 @@ I master fundamentals over trends — stacks change, engineers who understand wh
 
 ## Connect
 
-Open to **Cloud Engineer**, **Platform Engineer** and **DevOps** roles across England. Hybrid and remote.
+Open to **Cloud Engineer**, **Platform Engineer** and **DevOps** roles across the UK and the rest of the world. Hybrid and remote.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-moshstaq-blue?logo=linkedin)](https://linkedin.com/in/moshstaq)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa01@gmail.com)
