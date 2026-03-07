@@ -15,11 +15,13 @@ I build infrastructure that is secure by default, governed from day one, and sim
 
 A production-pattern Azure platform built from scratch using Terraform and GitHub Actions, implementing Cloud Adoption Framework landing zone patterns. Not a template. Not a wizard. Every resource is defined in code, every deployment runs through CI/CD.
 
-Covers the full platform stack — management group hierarchy, hub-spoke networking with Application Gateway ingress, Azure Policy governance, AKS with workload identity, Private Endpoints, centralised observability, disaster recovery and cost management.
+Covers the full platform stack management group hierarchy, hub-spoke networking with Application Gateway ingress, Azure Policy governance, AKS with workload identity, Private Endpoints, centralised observability, disaster recovery and cost management.
 
 ### [Azure AKS Platform Onboarding](https://github.com/moshstaq/azure-aks-platform-onboarding)
 
-End-to-end workload onboarding onto the landing zone above. Python FastAPI application containerised with a multi-stage Dockerfile, pushed to Azure Container Registry, deployed to AKS via Helm, with secrets fetched from Key Vault using workload identity. GitHub Actions pipeline handles build, vulnerability scanning and deployment.
+End-to-end workload onboarding onto the landing zone above. Python FastAPI application containerised with a multi-stage Dockerfile, pushed to Azure Container Registry, deployed to AKS via Helm, with secrets fetched from Key Vault using workload identity no credentials stored anywhere in the cluster or pipeline.
+
+GitHub Actions CI/CD pipeline builds, scans with Trivy, and deploys on every push to main. All managed identity values are read dynamically from Azure CLI at runtime so the pipeline survives infrastructure reprovisioning without manual intervention. Every deployment step is idempotent safe to run multiple times against the same cluster.
 
 ---
 
