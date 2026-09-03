@@ -1,6 +1,8 @@
-# Mosh A
+# Mosh
 
-## **Cloud and Platform Engineer** Azure · AWS · Terraform · Kubernetes
+## **Cloud and Platform Engineer**
+
+### Azure · AWS · Terraform · Kubernetes
 
 I build platforms other engineers deploy onto: governed from day one, secure by default, and documented well enough that the next person can change them safely.
 
@@ -10,11 +12,11 @@ Deep in Azure. Building out AWS. Currently working on a multi-cloud internal dev
 
 ## Platform Work
 
-### [stratum](link) — Multi-cloud internal developer platform _(in progress)_
+### [stratum-platform](link) — Multi-cloud internal developer platform _(in progress)_
 
 A golden path onto either cloud, consuming the Azure and AWS landing zones below. Developers get a paved route to production without writing platform Terraform.
 
-Phases 0–4 complete: platform foundations, cross-cloud module contracts, and a FastAPI application layer running on EKS ([stratum-workloads](link)). Phases 5–6 — resilience, observability, production readiness — in progress.
+Phases 0–4 complete: platform foundations, cross-cloud module contracts, and a FastAPI application layer running on EKS ([stratum-workload](link)). Phases 5–6 — resilience, observability, production readiness — in progress.
 
 The interesting problem is not deploying to two clouds. It is deciding where the abstraction should stop. Identity federation, IAM versus RBAC scoping and network primitives differ structurally between Azure and AWS; pretending otherwise produces Azure logic wearing AWS names.
 
