@@ -75,7 +75,7 @@ The AWS counterpart. Multi-account structure, IAM, networking and Terraform stat
 
 ## Connect
 
-Open to **Cloud Engineer**, **DevOps** and **Platform Engineering** roles UK, Hybrid or remote.
+Open to **Cloud Engineer**, **DevOps** and **Platform Engineering** roles in the UK, Hybrid or remote.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-moshstaq-blue?logo=linkedin)](https://linkedin.com/in/moshstaq)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa@moshstaq.com)
