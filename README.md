@@ -2,7 +2,7 @@
 
 ## **Cloud Engineer**
 
-### Azure · AWS · Terraform · Kubernetes · Github Actions · Azure Devops
+### Azure · AWS · Terraform · AKS · Github Actions · Azure Devops
 
 I work across cloud infrastructure and DevOps, building and operating reliable Azure environments — from cloud foundations and networking to Kubernetes, Infrastructure as Code and CI/CD. My focus is how the layers fit together, and how to make infrastructure secure, repeatable and easier to operate.
 
