@@ -1,12 +1,22 @@
 # Mosh
 
-## **Cloud and Platform Engineer**
+## **Cloud Engineer**
 
-### Azure · AWS · Terraform · Kubernetes
+### Azure · AWS · Terraform · Kubernetes · Github Actions · Azure Devops
 
-I build platforms other engineers deploy onto: governed from day one, secure by default, and documented well enough that the next person can change them safely.
+I implement and operate production Azure infrastructure. In my own projects I design the platform layer too: landing zones, AKS workloads and delivery pipelines, governed from day one, secure by default, and documented well
+enough that the next person can change them safely.
 
-Deep in Azure. Building out AWS. Currently working on a multi-cloud internal developer platform.
+---
+
+## Experience
+
+**Cloud Engineer (Contract)**
+Implemented a client's Azure environment to an existing design: identity (service principals, managed and federated identities), networking (subnets, NSGs), VMs, AKS and ACR. Now operate it under SLA — backups, restores and
+patching — with Terraform changes going through pull requests checked by GitHub Actions.
+
+**Senior Service Desk Engineer**
+Lead technical development of nine engineers across a 5,000+ device estate: hybrid identity (AD / Entra ID), networking and VPN, Intune, M365 and AVD.
 
 ---
 
@@ -66,12 +76,6 @@ Azure DevOps to Container Apps. Terraform, Trivy scanning in the pipeline, Key V
 | MD-102 Endpoint Administrator            | Microsoft |
 | AZ-900 Azure Fundamentals                | Microsoft |
 | CC Certified in Cybersecurity            | ISC²      |
-
----
-
-## Current Role
-
-Senior Service Desk Engineer. I lead and mentor nine engineers across a 5,000+ device estate — hybrid identity, networking, Intune, M365. The platform work above is where I have taken that operational grounding and built the thing rather than supported it.
 
 ---
 
