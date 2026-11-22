@@ -16,33 +16,33 @@ Leading the technical development of an engineering team supporting enterprise I
 
 ## Projects
 
-### [stratum-platform](https://github.com/moshstaq/stratum-platform) — Multi-cloud internal developer platform _(in progress)_
+### [azure-landing-zone](https://github.com/moshstaq/azure-landing-zone) — Azure platform foundation
 
-A golden path onto either cloud, consuming the Azure and AWS landing zones below. Developers get a paved route to production without writing platform Terraform.
+Cloud Adoption Framework landing zone built in Terraform and deployed through GitHub Actions. Management group hierarchy, hub-spoke networking with Application Gateway ingress, Azure Policy governance, Private Endpoints, centralised Log Analytics, cost management.
 
-Phases 0–4 complete: platform foundations, cross-cloud module contracts, and a FastAPI application layer running on EKS ([stratum-workload](https://github.com/moshstaq/stratum-workloads)). Phases 5–6 — resilience, observability, production readiness — in progress.
+Built to be consumed, not admired: `taskflow-platform` and `stratum-platform` both sit on top of it.
 
-The interesting problem is not deploying to two clouds. It is deciding where the abstraction should stop. Identity federation, IAM versus RBAC scoping and network primitives differ structurally between Azure and AWS; pretending otherwise produces Azure logic wearing AWS names.
+### [azure-ado-delivery-pipeline](https://github.com/moshstaq/azure-ado-delivery-pipeline) — Delivery pipeline
+
+Azure DevOps to Container Apps. Terraform, Trivy scanning in the pipeline, Key Vault, workload identity federation, build-once-and-promote across environments so the artefact that reaches production is the one that was tested.
 
 ### [taskflow-platform](https://github.com/moshstaq/taskflow-platform) — AKS workload platform
 
 FastAPI services on AKS with Service Bus, deployed onto the Azure landing zone. Terraform, Helm, workload identity, no static credentials anywhere in the cluster or pipeline.
 
-Its main design decision is a three-tier Terraform dependency model that resolves the circular dependency between managed identity creation and OIDC federated credential configuration — the identity needs the cluster's OIDC issuer, and the workload needs the identity. Splitting the apply into ordered tiers removes the manual bootstrap step most implementations leave in place.
+Its main design decision is a three-tier Terraform structure built around the identity chain: the cluster exposes an OIDC issuer, the federated credential trusts that issuer, and the workload runs as the managed identity. Each tier has its own state and is applied in order, so the cluster and identity, which rarely change, are isolated from the workloads, which change often.
 
-### [azure-landing-zone](https://github.com/moshstaq/azure-landing-zone) — Azure platform foundation
+### [stratum-platform](https://github.com/moshstaq/stratum-platform) — Multi-cloud internal developer platform
 
-Cloud Adoption Framework landing zone built in Terraform and deployed through GitHub Actions. Management group hierarchy, hub-spoke networking with Application Gateway ingress, Azure Policy governance, Private Endpoints, centralised Log Analytics, cost management.
+A golden path onto either cloud, consuming the Azure and AWS landing zones. Developers get a paved route to production without writing platform Terraform.
 
-Built to be consumed, not admired: `stratum-workload` and `taskflow-platform` both sit on top of it.
+Phases 0–5 complete: platform foundations, cross-cloud module contracts, a FastAPI application layer running on EKS ([stratum-workloads](https://github.com/moshstaq/stratum-workloads)), resilience and observability. Phase 6, production readiness, is paused.
+
+The interesting problem is not deploying to two clouds. It is deciding where the abstraction should stop. Identity federation, IAM versus RBAC scoping and network primitives differ structurally between Azure and AWS; pretending otherwise produces Azure logic wearing AWS names.
 
 ### [aws-landing-zone](https://github.com/moshstaq/aws-landing-zone) — AWS platform foundation
 
 The AWS counterpart. Multi-account structure, IAM, networking and Terraform state handling, built to serve the same consumers as the Azure foundation without copying Azure's scoping model across.
-
-### [azure-ado-delivery-pipeline](https://github.com/moshstaq/azure-ado-delivery-pipeline) — Delivery pipeline
-
-Azure DevOps to Container Apps. Terraform, Trivy scanning in the pipeline, Key Vault, workload identity federation, build-once-and-promote across environments so the artefact that reaches production is the one that was tested.
 
 ---
 
@@ -75,7 +75,7 @@ Azure DevOps to Container Apps. Terraform, Trivy scanning in the pipeline, Key V
 
 ## Connect
 
-Open to **Cloud Engineer**, **DevOps** and Engineering roles UK, Hybrid or remote.
+Open to **Cloud Engineer**, **DevOps** and **Platform Engineering** roles UK, Hybrid or remote.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-moshstaq-blue?logo=linkedin)](https://linkedin.com/in/moshstaq)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa@moshstaq.com)
