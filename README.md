@@ -4,23 +4,17 @@
 
 ### Azure · AWS · Terraform · Kubernetes · Github Actions · Azure Devops
 
-I implement and operate production Azure infrastructure. In my own projects I design the platform layer too: landing zones, AKS workloads and delivery pipelines, governed from day one, secure by default, and documented well
-enough that the next person can change them safely.
+I work across cloud infrastructure and DevOps, building and operating reliable Azure environments — from cloud foundations and networking to Kubernetes, Infrastructure as Code and CI/CD. My focus is how the layers fit together, and how to make infrastructure secure, repeatable and easier to operate.
+
+**Cloud Engineering**
+Implementing and operating a production Azure environment, with Terraform-based change management.
+
+**Technical Leadership & IT Operations**
+Leading the technical development of an engineering team supporting enterprise IT environments, with a background in identity, networking, endpoint management and cloud services.
 
 ---
 
-## Experience
-
-**Cloud Engineer (Contract)**
-Implemented a client's Azure environment to an existing design: identity (service principals, managed and federated identities), networking (subnets, NSGs), VMs, AKS and ACR. Now operate it under SLA — backups, restores and
-patching — with Terraform changes going through pull requests checked by GitHub Actions.
-
-**Senior Service Desk Engineer**
-Lead technical development of nine engineers across a 5,000+ device estate: hybrid identity (AD / Entra ID), networking and VPN, Intune, M365 and AVD.
-
----
-
-## Platform Work
+## Projects
 
 ### [stratum-platform](https://github.com/moshstaq/stratum-platform) — Multi-cloud internal developer platform _(in progress)_
 
@@ -81,7 +75,7 @@ Azure DevOps to Container Apps. Terraform, Trivy scanning in the pipeline, Key V
 
 ## Connect
 
-Open to **Cloud Engineer**, **Platform Engineer** and **DevOps** Engineering roles UK, Hybrid or remote.
+Open to **Cloud Engineer**, **DevOps** and Engineering roles UK, Hybrid or remote.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-moshstaq-blue?logo=linkedin)](https://linkedin.com/in/moshstaq)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:moshood.adisa@moshstaq.com)
